@@ -1,9 +1,9 @@
 function soma(a, b){
-    return a+b;
+    return a + b;
 }
 
-const soma2 = soma(2);
+const somaC = soma(2);
 
-console.log(soma2(3));
-console.log(soma2(4));
-console.log(soma2(5));
+console.log(somaC(3));
+console.log(somaC(4));
+console.log(somaC(5));
