@@ -1,5 +1,7 @@
-function soma(a, b){
-    return a + b;
+function soma(a){
+    return function(b){
+        return a + b;
+    }
 }
 
 const somaC = soma(2);
